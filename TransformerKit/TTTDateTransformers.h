@@ -1,5 +1,5 @@
 // TTTDateTransformers.h
-// 
+//
 // Copyright (c) 2013 Mattt Thompson
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -8,10 +8,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-// 
+//
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-// 
+//
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -26,6 +26,7 @@
  @warning Because `time.h` represents timestamps as 32-bit integers, times before 00:00::00 UTC on Thursday, January 1, 1970 and after 03:14:07 UTC on Tuesday, 19 January 2038 cannot be represented.
  */
 extern NSString * const TTTISO8601DateTransformerName;
+extern NSString * const TTTRFC2822DateTransformerName;
 
 @interface TTTDateTransformers : NSObject
 
